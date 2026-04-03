@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us Page</title>
+  <link rel="stylesheet" href="./travelRecommendation.css">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    .hero-section {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .overlay {
+        background: rgba(0,0,0,0.55);
+        height: 100%;
+        width: 100%;
+        padding: 80px 60px;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin: 0 0 30px 0;
+        font-weight: 800;
+    }
+
+    .about-box {
+        max-width: 900px;
+        background: rgba(0,0,0,0.4);
+        padding: 25px 35px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px);
+        line-height: 1.6;
+    }
+
+    .team-section {
+        background: rgba(0,0,0,0.75);
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .team-title {
+        font-size: 55px;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+
+    .team-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 0 40px;
+    }
+
+    .team-card {
+        width: 260px;
+        background: rgba(255,255,255,0.15);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        backdrop-filter: blur(3px);
+    }
+
+    .team-card img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+
+    .name {
+        font-size: 22px;
+        margin: 15px 0 5px 0;
+        font-weight: bold;
+    }
+
+    .role {
+        font-size: 14px;
+        opacity: 0.9;
+    }
+
+    .tag {
+        margin-top: 12px;
+        display: inline-block;
+        padding: 5px 15px;
+        background: #1e90ff;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+    <img width="40" height="30"
+      src="https://static.vecteezy.com/system/resources/previews/011/162/377/large_2x/jet-plane-logo-icon-illustration-vector.jpg" />
+    <h1 style="color:white; font-style: italic;">TravelBloom</h1>
+    </div>
+    <ul>
+      <li><a href="./travelRecommendation.html" id="home">Home </a></li>
+      <li><a href="./travel_about.html" id="contact">About Us </a></li>
+      <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+    </ul>
+
+  </nav>
+<section class="hero-section">
+    <div class="overlay">
+        <h1>ABOUT US</h1>
+
+        <div class="about-box">
+            <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services to our customers.</p>
+            <p>Our mission is to provide the best experience for people traveling to different destinations around the world.</p>
+            <p>Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.</p>
+            <p>Feel free to explore our website to learn more about what we offer!</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="team-section">
+    <div class="team-title">Our Team</div>
+
+    <div class="team-container">
+
+        <div class="team-card">
+            <img src="https://i.pravatar.cc/100?img=12" alt="John">
+            <div class="name">John Doe</div>
+            <div class="role">John is responsible for overall company strategy and vision.</div>
+            <div class="tag">CEO</div>
+        </div>
+
+        <div class="team-card">
+            <img src="https://i.pravatar.cc/100?img=32" alt="Celina">
+            <div class="name">Celina Thomas</div>
+            <div class="role">Celina leads the technical and operations team.</div>
+            <div class="tag">Team Lead</div>
+        </div>
+
+        <div class="team-card">
+            <img src="https://i.pravatar.cc/100?img=5" alt="Mike">
+            <div class="name">Mike Tyson</div>
+            <div class="role">Mike manages project delivery and client relationships.</div>
+            <div class="tag">Delivery Head</div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>

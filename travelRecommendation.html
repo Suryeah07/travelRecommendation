@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="./travelRecommendation.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img width="40" height="30"
+                src="https://static.vecteezy.com/system/resources/previews/011/162/377/large_2x/jet-plane-logo-icon-illustration-vector.jpg" />
+            <h1 style="color:white; font-style: italic;">TravelBloom</h1>
+        </div>
+
+        <ul>
+            <li><a href="./travelRecommendation.html" id="home">Home </a></li>
+            <li><a href="./travel_about.html" id="contact">About Us </a></li>
+            <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+
+            <li>
+                <div class="searchBox">
+                    <input class="searchTextBox" type="text" id="conditionInput"
+                        placeholder="Enter a destination or keyword" onkeyup="showDropdown()">
+
+                    <button id="btnSearch" onclick="showResults()" style="background:white;color:black">🔍 Search</button>
+                    <button id="btnClear" style="background:red;">Clear</button>
+
+                    <div id="dropdownResults" class="dropdown"></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="travelHome">
+            <h1 style="color: white;margin-left: 10px;">Explore Dream Destination</h1>
+            <p style="color: white;margin-left: 10px;max-width: 30%;">
+                Discover breathtaking destinations, hidden gems, and unforgettable travel experiences with TravelBloom.
+            </p>
+
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script src="./travelRecommendation.js"></script>
+</body>
+</html>

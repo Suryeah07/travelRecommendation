@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./travelRecommendation.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <img width="40" height="30"
+        src="https://static.vecteezy.com/system/resources/previews/011/162/377/large_2x/jet-plane-logo-icon-illustration-vector.jpg" />
+      <h1 style="color:white; font-style: italic;">TravelBloom</h1>
+    </div>
+    <ul>
+      <li><a href="./travelRecommendation.html" id="home">Home </a></li>
+      <li><a href="./travel_about.html" id="contact">About Us </a></li>
+      <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+
+    </ul>
+  </nav>
+
+  <div style="padding: 10px;">
+    <h1 style="color: white;">Contact Us</h1>
+    <p style="color: white;">Feel free to contact us to know more info.</p>
+    <div class="contact-container">
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent!');">
+        <h2>Contact Us</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
